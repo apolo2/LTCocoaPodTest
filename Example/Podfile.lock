@@ -1,0 +1,16 @@
+PODS:
+  - LTCocoaPodTest (0.1.0)
+
+DEPENDENCIES:
+  - LTCocoaPodTest (from `../`)
+
+EXTERNAL SOURCES:
+  LTCocoaPodTest:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LTCocoaPodTest: e4b9c32d7580b49daaa0bc3146a6d93b534cfe6a
+
+PODFILE CHECKSUM: 182cce29d4fc49b551443fa6758a7888953850fe
+
+COCOAPODS: 1.2.1
