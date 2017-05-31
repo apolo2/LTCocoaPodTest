@@ -1,0 +1,2 @@
+Example/Pods/CraftARAugmentedRealitySDK.framework/Versions/A/CraftARAugmentedRealitySDK filter=lfs diff=lfs merge=lfs -text
+Frameworks/CraftARAugmentedRealitySDK.framework/Versions/A/CraftARAugmentedRealitySDK filter=lfs diff=lfs merge=lfs -text

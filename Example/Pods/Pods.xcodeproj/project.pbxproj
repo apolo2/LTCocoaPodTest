@@ -16,6 +16,7 @@
 		890267CCA4526F72B2E15C13E6B762B4 /* LTTestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FBFB9413FDB3C735AF50588E0D4D131 /* LTTestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2DA9310310BC11A96575836A110D5A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		AEB997FB660002A69131AFA3F849D79E /* LTCocoaPodTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B90CED0CF88EBFA2D6C57021453AC8 /* LTCocoaPodTest-dummy.m */; };
+		BCEF83BB1EDF24BF00F72F8C /* CraftARAugmentedRealitySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEF83BA1EDF24BF00F72F8C /* CraftARAugmentedRealitySDK.framework */; };
 		D0396D5AA6EE709A0EF88A02F757750B /* Pods-LTCocoaPodTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F780244FAEB8C03F7F9B587638DFEF35 /* Pods-LTCocoaPodTest_Tests-dummy.m */; };
 		FDDCD8D87ECB81A45D7D9ED9280E188B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		AB9E179FF3F1680197A6BEB5BAEFF6C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0D2F928A25D46FD58D0B628EB7DAC7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B411E44DABCD0D4448371A5921555540 /* Pods-LTCocoaPodTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTCocoaPodTest_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BCEF83BA1EDF24BF00F72F8C /* CraftARAugmentedRealitySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CraftARAugmentedRealitySDK.framework; sourceTree = "<group>"; };
 		BE44EB9B34AD27A5F9F531E89643B7EF /* Pods-LTCocoaPodTest_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTCocoaPodTest_Tests-resources.sh"; sourceTree = "<group>"; };
 		BEE744DD0FB07B6CA3B5E88D8C01A56E /* Pods_LTCocoaPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTCocoaPodTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0AADF66BC530D5C394D64271392774F /* Pods-LTCocoaPodTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LTCocoaPodTest_Example.modulemap"; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDDCD8D87ECB81A45D7D9ED9280E188B /* Foundation.framework in Frameworks */,
+				BCEF83BB1EDF24BF00F72F8C /* CraftARAugmentedRealitySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +136,7 @@
 		5DEB2896D4EBDBEF9B18B3DBE7807DE2 /* LTCocoaPodTest */ = {
 			isa = PBXGroup;
 			children = (
+				BCEF83B91EDF24AA00F72F8C /* Frameworks */,
 				31780C5F9C68562B8F5F6A701C95EF18 /* LTCocoaPodTest */,
 				DD379AA1EDD818515870D4EF8D1BD064 /* Support Files */,
 			);
@@ -183,6 +187,14 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCEF83B91EDF24AA00F72F8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF83BA1EDF24BF00F72F8C /* CraftARAugmentedRealitySDK.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 		C1248350C919549EB38BBEAA78D2E999 /* Targets Support Files */ = {
@@ -541,6 +553,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/LTCocoaPodTest/LTCocoaPodTest-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LTCocoaPodTest/Info.plist";
@@ -657,6 +673,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/LTCocoaPodTest/LTCocoaPodTest-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LTCocoaPodTest/Info.plist";
