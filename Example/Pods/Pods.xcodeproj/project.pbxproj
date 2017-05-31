@@ -38,7 +38,7 @@
 		257D7B1940C1A9441FC32E3A225239CD /* Pods-LTCocoaPodTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTCocoaPodTest_Example-frameworks.sh"; sourceTree = "<group>"; };
 		29228630A6623EB756088B072C800F57 /* LTTestViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LTTestViewController.m; sourceTree = "<group>"; };
 		2E750E566B74728ED46904A2EF4FACAC /* Pods-LTCocoaPodTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LTCocoaPodTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2F3067315BA3589BAD6421B817BFC106 /* Pods_LTCocoaPodTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LTCocoaPodTest_Example.framework; path = "Pods-LTCocoaPodTest_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3067315BA3589BAD6421B817BFC106 /* Pods_LTCocoaPodTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTCocoaPodTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C7CC3FE9AFF6A891E471C4B3E6BF02 /* Pods-LTCocoaPodTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LTCocoaPodTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		424EE0854B6B80C66D4A03D8925703BC /* Pods-LTCocoaPodTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LTCocoaPodTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		478D3EFD3ABD41031DBCE626F484881B /* Pods-LTCocoaPodTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LTCocoaPodTest_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -48,20 +48,20 @@
 		79984FDF297246C705A0E62658C59C9F /* Pods-LTCocoaPodTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LTCocoaPodTest_Example-dummy.m"; sourceTree = "<group>"; };
 		7E2478B652072F3D170F8FD828A975DE /* Pods-LTCocoaPodTest_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTCocoaPodTest_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		88B5DB0F694357439B2A603F5819F47C /* LTCocoaPodTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTCocoaPodTest-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99B90CED0CF88EBFA2D6C57021453AC8 /* LTCocoaPodTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTCocoaPodTest-dummy.m"; sourceTree = "<group>"; };
-		9C1EC09B359B106B895E1F4394CD4C54 /* Pods-LTCocoaPodTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LTCocoaPodTest_Tests.modulemap"; sourceTree = "<group>"; };
+		9C1EC09B359B106B895E1F4394CD4C54 /* Pods-LTCocoaPodTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LTCocoaPodTest_Tests.modulemap"; sourceTree = "<group>"; };
 		9D404C843918C25E92453CBBFC41F8E5 /* Pods-LTCocoaPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTCocoaPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9F02CBA25E71917329E5DF194B6294A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A187791FCE6F00F853C30AFD29F0AC0E /* LTCocoaPodTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LTCocoaPodTest.modulemap; sourceTree = "<group>"; };
+		A187791FCE6F00F853C30AFD29F0AC0E /* LTCocoaPodTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LTCocoaPodTest.modulemap; sourceTree = "<group>"; };
 		AB9E179FF3F1680197A6BEB5BAEFF6C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0D2F928A25D46FD58D0B628EB7DAC7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B411E44DABCD0D4448371A5921555540 /* Pods-LTCocoaPodTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTCocoaPodTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BE44EB9B34AD27A5F9F531E89643B7EF /* Pods-LTCocoaPodTest_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTCocoaPodTest_Tests-resources.sh"; sourceTree = "<group>"; };
-		BEE744DD0FB07B6CA3B5E88D8C01A56E /* Pods_LTCocoaPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LTCocoaPodTest_Tests.framework; path = "Pods-LTCocoaPodTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0AADF66BC530D5C394D64271392774F /* Pods-LTCocoaPodTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LTCocoaPodTest_Example.modulemap"; sourceTree = "<group>"; };
+		BEE744DD0FB07B6CA3B5E88D8C01A56E /* Pods_LTCocoaPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTCocoaPodTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0AADF66BC530D5C394D64271392774F /* Pods-LTCocoaPodTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LTCocoaPodTest_Example.modulemap"; sourceTree = "<group>"; };
 		C0C2C700C28D8C810BAEF56CF06DA749 /* LTCocoaPodTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTCocoaPodTest-umbrella.h"; sourceTree = "<group>"; };
-		E83108007FE9050E09D40C3667F46361 /* LTCocoaPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LTCocoaPodTest.framework; path = LTCocoaPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83108007FE9050E09D40C3667F46361 /* LTCocoaPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTCocoaPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC3114EA79B5151082CC09F6DBBA0BB /* Pods-LTCocoaPodTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LTCocoaPodTest_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F780244FAEB8C03F7F9B587638DFEF35 /* Pods-LTCocoaPodTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LTCocoaPodTest_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,7 +109,6 @@
 			children = (
 				D83BAB5394FA97F9423AD1F7C1D79FAB /* Classes */,
 			);
-			name = LTCocoaPodTest;
 			path = LTCocoaPodTest;
 			sourceTree = "<group>";
 		};
@@ -209,7 +208,6 @@
 				0FBFB9413FDB3C735AF50588E0D4D131 /* LTTestViewController.h */,
 				29228630A6623EB756088B072C800F57 /* LTTestViewController.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
