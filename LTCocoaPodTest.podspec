@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'LTCocoaPodTest/Classes/**/*'
   s.ios.vendored_frameworks = 'Frameworks/CraftARAugmentedRealitySDK.framework'
-  # s.resource_bundles = {
-  #   'LTCocoaPodTest' => ['LTCocoaPodTest/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'LTCocoaPodTest' => ['LTCocoaPodTest/Assets/*.bundle']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

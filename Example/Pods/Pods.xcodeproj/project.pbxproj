@@ -59,6 +59,8 @@
 		B0D2F928A25D46FD58D0B628EB7DAC7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B411E44DABCD0D4448371A5921555540 /* Pods-LTCocoaPodTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTCocoaPodTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BCEF83BA1EDF24BF00F72F8C /* CraftARAugmentedRealitySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CraftARAugmentedRealitySDK.framework; sourceTree = "<group>"; };
+		BCEF83BD1EDFB3E600F72F8C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		BCEF83BE1EDFB3FA00F72F8C /* CraftARResourcesAR.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CraftARResourcesAR.bundle; sourceTree = "<group>"; };
 		BE44EB9B34AD27A5F9F531E89643B7EF /* Pods-LTCocoaPodTest_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTCocoaPodTest_Tests-resources.sh"; sourceTree = "<group>"; };
 		BEE744DD0FB07B6CA3B5E88D8C01A56E /* Pods_LTCocoaPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTCocoaPodTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0AADF66BC530D5C394D64271392774F /* Pods-LTCocoaPodTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LTCocoaPodTest_Example.modulemap"; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		31780C5F9C68562B8F5F6A701C95EF18 /* LTCocoaPodTest */ = {
 			isa = PBXGroup;
 			children = (
+				BCEF83BC1EDFB3E600F72F8C /* Assets */,
 				D83BAB5394FA97F9423AD1F7C1D79FAB /* Classes */,
 			);
 			path = LTCocoaPodTest;
@@ -195,6 +198,15 @@
 				BCEF83BA1EDF24BF00F72F8C /* CraftARAugmentedRealitySDK.framework */,
 			);
 			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCEF83BC1EDFB3E600F72F8C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF83BE1EDFB3FA00F72F8C /* CraftARResourcesAR.bundle */,
+				BCEF83BD1EDFB3E600F72F8C /* .gitkeep */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		C1248350C919549EB38BBEAA78D2E999 /* Targets Support Files */ = {
